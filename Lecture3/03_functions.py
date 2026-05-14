@@ -1,7 +1,7 @@
 
 name = "Shazidul"
 # Case Related Functions
-'''
+
 print(len(name))
 
 
@@ -12,10 +12,10 @@ print(name.upper())
 print(name.lower())
 
 print(name.swapcase())
-'''
+
 # 2. Search Related Functions
-# nums = "Shamin Ahasun Shazid"
-'''
+nums = "Shamin Ahasun Shazid"
+
 print(nums.find("haz"))  # 15 — কোন index এ আছে
 print(nums.index("haz")) # 15 — find এর মতো কিন্তু না পেলে error
 
@@ -25,7 +25,7 @@ print(name.endswith("dul"))
 print(name.endswith("DUL"))
 print(name.startswith("sha"))
 print(name.startswith("Sha"))
-'''
+
 
 # 3. Remove Space Functions
 # nums = "  Shamin Ahasun Shazid  "
@@ -63,3 +63,35 @@ print("hello".islower())    # True  — সব ছোট হাতে?
 print("Hello World".istitle()) # True — Title case?
 
 # 6. Join & Format Functions
+
+# join — list কে string এ জোড়া লাগায়
+
+words = ["Hello" , "World" , "Python"]
+print(" ".join(words))
+print("_".join(words))
+
+# format — variable বসায়
+age = 20
+print("I am {} and I am {} .".format(num , age))
+
+# f-string — সহজ format
+print(f"Hello , I'm {num} AND I am {age} ")
+
+
+
+# 7. Align Functions
+
+py = "Python"
+
+print(py.center(20))       # "       Python       "
+print(py.center(20, "*"))  # "*******Python*******"
+print(py.ljust(20, "-"))   # "Python--------------"
+print(py.rjust(20, "-"))   # "--------------Python"
+
+# 8. Encode & Length
+name = "Python"
+
+print(len(name))          # 6 — কতটা character
+print(name.encode())      # b'Python' — bytes এ convert
+print(name.zfill(10))     # 0000Python — সামনে 0 যোগ
+
