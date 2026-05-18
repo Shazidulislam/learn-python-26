@@ -14,8 +14,8 @@ students = [
 
 print(students[0])
 print(students[0][0])
-print(students[0][1])
-print(students[0][1])
+print(students[1][1])
+print(students[2][1])
 
 # Nested List এ Add ও Remove:
 
@@ -34,3 +34,4 @@ print(students[0])  # ['Rakib', 25]
 students.remove(["Shazid", 21])
 print(students)
 # [['Rakib', 25], ['Karim', 22]]
+

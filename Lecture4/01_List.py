@@ -79,7 +79,8 @@ print(my_friends)
 numbers = [3, 1, 4, 2, 1, 5, 9, 2]
 print(len(numbers)) #কতটা item
 print(numbers.count(2))  # 2  কতবার আছে
-print(numbers.index(4))  #  4 কোন index এ
+print(numbers.index(4))  # 
+
 numbers.sort() 
 print(numbers)
 
