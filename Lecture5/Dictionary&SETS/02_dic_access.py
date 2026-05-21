@@ -16,6 +16,14 @@ print(students.get("age"))
 print(students.get("noting")) # নেই — default value
 
 
+
+
+
+
+
+
+
+
 # Dictionary Add ও Update:
 
 marks = {
@@ -35,5 +43,16 @@ print(marks["Physics"])
 # update() দিয়ে একসাথে অনেকগুলো  & নতুন add kora jai
 marks.update({"Chemistry" : 80 , "age" : 21 , "Love" : "Allah"})
 print(marks)
+
+
+
+
+
+
+
+
+
+
+
 
 
